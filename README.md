@@ -35,7 +35,7 @@ Si descargas el repositorio completo ya es funcional para hacer diferentes Katas
 <br/>
 <br/>
 
-## Creando una aplicación de consola 
+## Creando una aplicación de consola :pager:
 
 * **A.** Creamos una carpeta donde albergaremos el proyecto (el nombre de la carpeta sera el usado para el proyecto también)
 
@@ -65,7 +65,7 @@ dotnet run
 <br/>
 <br/>
 
-## Algunos comandos Input - Ouput de la consola que se pueden usar para interaccionar mediante la terminal.
+## Algunos comandos Input :pencil2: - Ouput :abcd: de la consola que se pueden usar para interaccionar mediante la terminal.
 
 * Leer Información desde la terminal
 ```C#
@@ -85,7 +85,7 @@ Console.ReadKey(true);
 <br/>
 <br/>
 
-## Como compilar
+## Como compilar :hammer:
 
 ```C#
 dotnet build
@@ -94,7 +94,7 @@ dotnet build
 <br/>
 
 
-## Como Depurar
+## Como Depurar :eyeglasses:
 
 * Revisar que tengamos el archivo "launch.json" en VSCode deberia estar dentro de la carpeta ".vscode" (si NO se tiene y estamos usando VSCode están facil como ejecutar la aplicación en modo depuración pulsando la tecla **F5**):
 
@@ -111,7 +111,7 @@ dotnet build
 <br/>
 <br/>
 
-## Creación proyecto para albergar la logica
+## Creación proyecto para albergar la logica :book:
 
 * En este paso crearemos un proyecto donde podremos tener las diferentes clases que contendran la lógica de las pruebas de la Kata
 
@@ -131,7 +131,7 @@ dotnet sln add BaseBusinessLibrary/BaseBusinessLibrary.csproj
 <br/>
 <br/>
 
-## Pruebas Unitarias
+## Pruebas Unitarias :microscope:
 
 ### Descripción 
 En el código se ha usado **MStest** también se puede usar con **xUnit** y **nUnit**.
